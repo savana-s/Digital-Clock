@@ -3,8 +3,10 @@
 # Description
 
 Online shop prototype implemented using React, Redux, React Router, and React Material UI library.
-![Image description](screenshot2.PNG)
-![Image description](src/images/screenshot.PNG)
+
+![Image description](screenshot2.png)
+
+![Image description](screenshot.png)
 
 # How to use
 
