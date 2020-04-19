@@ -1,12 +1,12 @@
-# Online Shop
+# Digital Clock - Online Shop
 
 # Description
 
-Online shop prototype implemented using React, Redux, React Router, and React Material UI library.
+React, Redux, React Router, and React Material UI library.
 
-![Image description](screenshot2.png)
+# Screen
 
-![Image description](screenshot.png)
+<img src = "https://i.imgur.com/Sryn1pF.gifv"></img>
 
 # How to use
 

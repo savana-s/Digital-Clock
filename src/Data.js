@@ -2,26 +2,25 @@
 const sampleProducts = [
   {
     id: 1,
-    name: "Nike Air Presto",
-    category: "Clothing and Shoes",
-    price: 55,
+    name: "Bernard Products Wall Clock",
+    category: "Clocks",
+    price: 10,
     description:
-      "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
+      "Bernhard Products Black Wall Clock Silent Non Ticking - 10 Inch Quality Quartz Battery Operated Round Easy to Read Home/Office/Classroom/School Clock. 10 inch clock. Large black bold numbers against white face creates easy viewing. Precise quartz movements guarantee accurate time. Silent non-ticking mechanism with sweeping movement. Enjoy a quiet environment!",
     popular: true,
     imageUrls: [
-      "https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/wokkcny4zbhvzobfwc7i/air-presto-womens-shoe-89Tqz1nG.jpg",
-      "https://media.hypedc.com/media/catalog/product/cache/1/image/750x/9df78eab33525d08d6e5fb8d27136e95/_/o/_o8a4329_2.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/81os6R4wnNL._AC_SL1500_.jpg",
     ],
   },
   {
     id: 2,
     name: "Casio F-91W-1XY",
-    category: "Jewelry and Watches",
-    price: 101,
+    category: "Watches",
+    price: 27,
     description:
       "Shaped in an iconic casio design, this watch features a digital display, stopwatch and an LED backlight. The watch is housed in a durable resin case. Suitable for everyday styling.",
 
-    popular: false,
+    popular: true,
     imageUrls: [
       "https://cdn3.volusion.com/htlyr.vuqkj/v/vspfiles/photos/F-91W-1-2.jpg?1408684729",
       "https://i.ytimg.com/vi/XJGI-v31-dk/maxresdefault.jpg",
@@ -30,8 +29,10 @@ const sampleProducts = [
   {
     id: 3,
     name: "Seiko Silvertone Black Dial Solar Calendar Watch",
-    category: "Jewelry and Watches",
+    category: "Watches",
     price: 200,
+    description:
+      "Stainless steel case with a stainless steel bracelet. Uni-directional rotating bezel. Black dial with gold-tone hands and dot hour markers. Dial Type: Analog. Luminescent hands and markers. Day of the week and date display at the 3 position. Seiko Caliber 4R36 automatic movement with about 41 hours of power reserve. Screw down crown. Case size: 45 mm. Round case shape. Deployment with push button clasp. Water resistant at 200 meters / 660 feet. Functions: date, day, hour, minute, second. Sport watch style. ",
 
     popular: false,
     imageUrls: [
@@ -75,9 +76,10 @@ const sampleProducts = [
   {
     id: 7,
     name: "Swatch Skin",
-    category: "Jewelry and Watches",
-    price: 200,
-    description: "",
+    category: "Watches",
+    price: 60,
+    description:
+      "Blue plastic case with a blue silicone strap. Red dials with green-tone hands and index hour markers. Dial Type: Analog. Quartz movement. Scratch resistant plexiglass crystal. Pull / push crown. Solid case back. Round case shape. Case size: 36.8 mm. Case thickness: 5.4 mm. Band width: 20 mm. Tang clasp. Water resistant at 30 meters / 100 feet. Functions: hour, minute. Casual watch style. Watch label: Swiss Made.",
     popular: false,
     imageUrls: [
       "https://static.swatch.com/images/product/SVUN105/sa000/SVUN105_sa000_sr8.jpg",
@@ -85,16 +87,14 @@ const sampleProducts = [
   },
   {
     id: 8,
-    name: "New Balance 993",
-    category: "Clothing and Shoes",
-    price: 128,
+    name: "PICTEK Projection Alarm Clock",
+    category: "Clocks",
+    price: 27,
     description:
-      "Superior comfort meets classic style in our 993 Made in the US running shoe. A " +
-      "favorite from the legendary 990 series, the 993 features responsive cushioning and " +
-      "premium materials ready for a run or all-day wear.",
+      "PICTEK Projection Alarm Clock, 4 Dimmer, Digital Clock with USB Phone Charger, Easy to Use, Clear Big Red Digit, 5'' LED Curved Screen, 180° Rotable, Digital Alarm Clocks for Bedrooms Ceiling, 12/24H. [3-Level Brightness+OFF] This projection clock offers 4 time brightness: dim, medium, bright or complete OFF on clock face or ceiling wall. The adjustable dimmer ensures you not to be bothered in night sleep or enjoy a clear view of time even in the sheer sunlight. [120° Rotable Projector or 180° Reversible] No need to turn your head to check the time. Our digital clock offers a clear display from a distance of 5 meters. The projector is -30° to 90° adjustable, and long press 'projector' button to make the projection display 180° reversible. [USB Phone Charging Outlet] The projection alarm clock has a USB charging port for mobile phones. Now you can enjoy the convenience of having your devices charged alongside your LED alarm clock while sleeping.",
     popular: false,
     imageUrls: [
-      "https://stockx-360.imgix.net/New-Balance-993-Kith-Grey/Images/New-Balance-993-Kith-Grey/Lv2/img19.jpg?auto=format,compress&w=559&q=90&dpr=2&updated_at=1561408785",
+      "https://images-na.ssl-images-amazon.com/images/I/61AASNlMdSL._AC_SX522_.jpg",
     ],
   },
   {
@@ -112,9 +112,10 @@ const sampleProducts = [
   {
     id: 10,
     name: "Swatch Blue Suit Mens Watch YGS747 Wrist Watch",
-    category: "Jewelry and Watches",
+    category: "Watches",
     price: 120,
-    description: "",
+    description:
+      "A modern design and a classy style fuse into one to form the SWATCH. This timepiece will accentuate your style and add distinction to your wardrobe.",
 
     popular: false,
     imageUrls: [
@@ -136,7 +137,7 @@ const sampleProducts = [
   {
     id: 12,
     name: "Invicta Men's Pro Diver Collection Watch -Black",
-    category: "Jewelry and Watches",
+    category: "Watches",
     price: 130,
     description:
       "Water resistant to 200 m (660 ft): In general, suitable for professional marine activity and serious surface water sports, but not scuba diving",
@@ -183,6 +184,30 @@ const sampleProducts = [
       "https://i0.wp.com/www.raptisrarebooks.com/images/73290/burmese-days-george-orwell-first-edition-signed.jpg?fit=1000%2C800&ssl=1",
     ],
   },
+  {
+    id: 16,
+    name: "ROCAM Alarm Clock with Projection",
+    category: "Clocks",
+    price: 23,
+    description:
+      "ROCAM Alarm Clock with Projection on Ceiling,Projection Alarm Clock for Bedrooms, Digital Clock Alarm with LED Display & Dimmer, Ceiling Display Clocks Dual Alarm Clock USB Charger. 【180 ° rotation projection time】Alarm clock projected in a soft blue color on wall, it is very clear to view the time but will not disturb you or your kids when sleeping. You still can adjust the sharpness according to the distance, and flip the projected image by 180 degrees.Avoid the actions you need to open your phone to check the time。【7 inch LED Display with Dimmer】The screen of the clock is large ，and screen numbers are clear and easy to read,you can read it from the other side of the room even for short-sighted and elders.It is the best gift for the elderly, children, friends.According to your habits, press the 'SET TIME' button at the top of the clock to adjust the '12/24 H' selection. DUAL ALARMS & SNOOZE & ADJUSTABLE RINGER】The projection alarm clock enables you to set two separate wake-up times for you and your partners at the same day, which is a great choice for a 2-person bedroom. The snooze button is in a convenient central location to turn off alarm to get extra 9 minutes sleep before alerting you again. Alarm volume can be adjusted to your preference by “V+” or “V-” buttons and the alarm sounds is incrementally louder。The best helper to get up【USB Port for Charging&Battery Backup for Setting】The clock is outlet powered for supporting functions such as USB charging, projection, alarm and time display. Two AAA 1.5V batteries(not included) are required to ensure memorization of time settings so that you don't need to reset time after encountering power outage. USB charging port is compatible with all Android & IOS smart-phones, tablets, Kindle or any other digital devices.",
+    popular: false,
+    imageUrls: [
+      "https://images-na.ssl-images-amazon.com/images/I/71kPNRvDvXL._AC_SY355_.jpg",
+    ],
+  },
+  {
+    id: 17,
+    name: "Sony ICFC1T Digital Clock Radio with Dual Alarm - Black",
+    category: "Clocks",
+    price: 106,
+    description:
+      "Sony presents you with its latest Digital Clock Radio which is a must-have as the perfect time-keeping device that blends within your home décor. Offering a functionality of a stylish time-keeping device with an alarm as well as a programmable radio, this device is well suited to households requiring a handy device within a closed environment.",
+    popular: false,
+    imageUrls: [
+      "https://images-na.ssl-images-amazon.com/images/I/81y1SLMEYVL._AC_SY450_.jpg",
+    ],
+  },
 ];
 
 // List of item categories.
@@ -192,11 +217,11 @@ const categories = [
     icon: "list",
   },
   {
-    name: "Clothing and Shoes",
+    name: "Clocks",
     icon: "group",
   },
   {
-    name: "Jewelry and Watches",
+    name: "Watches",
     icon: "watch",
   },
   {
