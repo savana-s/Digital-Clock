@@ -6,7 +6,7 @@ React, Redux, React Router, and React Material UI library.
 
 # Screen
 
-<img src = "https://i.imgur.com/Sryn1pF.gifv"></img>
+<img src = "https://i.imgur.com/Sryn1pF.gif"> </img>
 
 # How to use
 
